@@ -1,0 +1,311 @@
+body{
+  padding-top: 50px;
+  margin: 0;
+}
+.top_nav{
+    position: fixed;
+    top: 0;
+    background:black;
+    width: 100%;
+    text-align: center;
+    border-bottom: #000 1px solid;
+    z-index: 998;
+
+}
+.top_nav ul,
+.top_nav li{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.top_nav li{
+    display: inline;
+    margin: 0 20px;
+}
+.top_nav a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}
+section{
+    min-height: 700px;
+    border-bottom: 10px #000 solid;
+}
+.top{
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background: #000;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-size: 30px;
+    position: fixed;
+
+}
+.mPS2id-highlight{
+    color: white;
+    padding: 2px;
+    border-bottom: 1px solid red;
+}
+.top.mPS2id-highlight{
+    display: none;
+}
+.div-info{
+    text-align: center;
+    background: rgba(255, 255, 255, 0.589);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20vh;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.div-info h2{
+    text-transform: uppercase;
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    font-size: 55px;
+    color:purple;
+    text-align: left;
+}
+.div-info p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    text-align: justify;
+    font-weight: bold;
+}
+.section-1 ul{
+    list-style-type: none;
+}
+
+.div-form{
+    text-align: center;
+    background: rgba(255, 255, 255, 0.589);
+    border-radius: 5px;
+    padding: 50px 20px 50px 20px;
+    margin-top: 20vh;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.div-form input{
+    padding: 0 20px;
+}
+.block{
+background: rgba(255, 255, 255, 0.589);
+height: 400px;
+margin-top: 20vh;
+}
+.block img{
+max-width: 100%;
+height: 300px;
+}
+.masonry-container{
+    padding: 0;
+  }
+  .item{
+    height: 33vh;
+  }
+  .item img{
+      width: 100%;
+  }
+.comments{
+    text-align: center;
+    cursor: pointer;
+}
+.comments h2{
+    text-transform: uppercase;
+    padding-bottom: 50px;
+    font-family:  'Pacifico', cursive;
+}
+.comments img{
+    border-radius: 50%;
+}
+.comments p{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* Эффект паралакса */
+#s_1{
+    height: 100vh;
+    width: 100%;
+    background-image: url(/img/img_13.jpg);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+#s_2{
+    height: 100vh;
+    width: 100%;
+    /* background-image: url(/img/img_14.jpg); */
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+/* #s_3{
+    height: 100vh;
+    width: 100%;
+    display: table;
+    background-attachment: fixed;
+} */
+/* #s_4{
+    height: 100vh;
+    width: 100%;
+    display: table;
+    background-attachment: fixed;
+} */
+#s_5{
+    background-image: url(/img/img_13.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: table;
+    background-attachment: fixed;
+    position: relative;
+}
+.section-2{
+    text-align: center;
+    margin-top: 50px;
+}
+.section-2 h2,h3{
+    font-family:'Pacifico', cursive;
+}
+/*snippet*/
+.section-class-item {
+    margin-bottom: 30px; }
+    .section-class-item .icon-wrap {
+      width: 70px;
+      height: 70px;
+      line-height: 70px;
+      text-align: center;
+      display: inline-block;
+      border-radius: 10em;
+      font-size: 20px;
+      color: white;
+      box-shadow: 8px -10px 10px -3px rgba(0,0,0,0.75); }
+    .section-class-item .item-text,
+    .section-class-item .item-icon {
+      display: table-cell;
+      vertical-align: top; }
+    .section-class-item h3 {
+      margin-top: 0;
+      font-size: 18px;
+      font-weight: bold; }
+    .section-class-item p {
+      color: 6f6f6f; }
+  
+  .items-right,
+  .items-left {
+    margin-top: 30px; }
+  
+  .items-right .item-icon {
+    padding-left: 20px; }
+  
+  .items-left .item-icon {
+    padding-right: 20px; }
+/* пролоадер */
+.preloader{
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: black;
+        z-index: 999;
+        transition: 1s all;
+        opacity: 1;
+        visibility: visible;
+    }
+.loader{
+        width: 75px;
+        height: 75px;
+        border: 10px solid white;
+        border-radius: 50%;
+        border-top-color: blueviolet;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        animation: 1s spin infinite linear;
+        -webkit-animation:  1s spin infinite linear;
+        -webkit-transform: translate(-50%, -50%);
+    }
+.done{
+    opacity: 0;
+    visibility: hidden;
+    }
+@keyframes spin {
+        from {
+            transform: translate(-50%, - 50%) rotate(0deg);
+            -webkit-transform: translate(-50%, -50%) rotate(0deg);
+        }
+        to {
+            transform: translate(-50%, -50%) rotate(360deg);
+            -webkit-transform: translate(-50%, -50%) rotate(360deg);
+        }
+    }
+footer{
+    width: 100%;
+    padding: 20px;
+    background: #000;
+    color: white;
+}
+footer a{
+   text-transform: none;
+   color: whitesmoke;
+   
+}
+.div-form-2{
+    text-align: center;
+    border-radius: 5px;
+    padding: 50px 20px 50px 20px;
+    color: white;
+    background: black;
+}
+.div-form-2 input{
+    padding: 0 20px;
+}
+.skawed_1{
+    position: relative;
+    width: 100%;
+    height: 50vh;
+}
+.skawed_2{
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    background:black;
+}
+.skawed_2:before{
+    content: '';
+    width: 50%;
+    height: 100px;
+    position: absolute;
+    top: -48px;
+    left: 0;
+    background: black;
+    transform: skewY(7deg);
+}
+.skawed_2:after{
+    content: '';
+    width: 50%;
+    height: 100px;
+    position: absolute;
+    top: -48px;
+    right: 0;
+    background:black;
+    transform: skewY(-7deg);
+}
+.contact{
+    color: white;
+    text-align: center;
+    background: black;
+}
+.contact h2{
+    padding-top: 50px;
+    text-transform: uppercase;
+    font-family:  'Pacifico', cursive;
+}
+.contact li{
+    font-size: 20px;
+    list-style-type: none;
+}
