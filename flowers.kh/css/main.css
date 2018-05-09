@@ -154,7 +154,7 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-attachment: fixed;
 } */
 #s_5{
-    background: yellow;
+    background: url(/flowers.kh/img/fon.jpg);
     background-size: cover;
     height: 100vh;
     width: 100%;
