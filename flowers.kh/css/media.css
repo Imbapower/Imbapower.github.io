@@ -98,6 +98,9 @@
 				list-style-type: none;}
 	.footer-div{
 				background: black;}
+.skawed_1{
+	display: none;
+}
 			}
 
 
@@ -157,5 +160,8 @@
 		.contact li{
 			font-size: 10px;
 			list-style-type: none;}
+.skawed_1{
+	display: none;
+}
 		}
 	
