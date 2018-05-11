@@ -101,6 +101,9 @@
 .skawed_1{
 	display: none;
 }
+#s_5{
+	background: black;
+}
 			}
 
 
@@ -162,6 +165,9 @@
 			list-style-type: none;}
 .skawed_1{
 	display: none;
+}
+#s_5{
+	background: black;
 }
 		}
 	
