@@ -199,7 +199,7 @@ margin-top: 50px;
     color: black;
 }
 .bg-map{
-    background: url(/picture/bg-map.jpg);
+    background: url(picture/bg-map.jpg);
     background-size: cover;
     
 }
