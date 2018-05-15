@@ -62,12 +62,12 @@
 .service-block{
     background: white;
     text-align: center;
-    height: 600px;
+    height: 500px;
     border-radius: 5px;
     box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
     padding-top: 10px;
     position: relative;
-    padding-top: 200px;
+    padding-top: 100px;
     
 }
 .service-block img{
@@ -132,6 +132,10 @@ input[type="text"]{
 .custom-partners img{
     width: 200px;
     height: 200px;
+    -webkit-filter: grayscale(1);
+}
+.custom-partners img:hover{
+    -webkit-filter: grayscale(0);
 }
 .custom-partners{
     padding-top: 50px;
@@ -228,13 +232,13 @@ margin-top: 50px;
     position: absolute;
     top: 0;
     right: 0;
-    background: url(/picture/background-block-1.jpg);
+    background: rgba(255, 0, 0, 0.267);
     opacity: 0;
     width: 100%;
     height: 100%;
     border-radius: 5px;
     background-size: cover;
- 
+    border: 2px double red;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -244,39 +248,37 @@ margin-top: 50px;
     position: absolute;
     top: 0;
     right: 0;
-    background: url(/picture/background-block-2.jpg);
+    background: rgba(255, 0, 0, 0.267);
     opacity: 0;
     width: 100%;
     height: 100%;
     border-radius: 5px;
     background-size: cover;
-    transform: scale(0);
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    border: 2px double red;
 }
 .descr_3{
     position: absolute;
     top: 0;
     right: 0;
-    background: url(/picture/background-block-3.jpg);
+    background: rgba(255, 0, 0, 0.267);
     opacity: 0;
     width: 100%;
     height: 100%;
     border-radius: 5px;
     background-size: cover;
-    transform: scale(0);
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    border: 2px double red;
 }
 .descr_4{
     position: absolute;
     top: 0;
     right: 0;
-    background: url(/picture/background-block-4.jpg);
+    background: rgba(255, 0, 0, 0.267);
     opacity: 0;
     width: 100%;
     height: 100%;
@@ -285,22 +287,22 @@ margin-top: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    border: 2px double red;
 }
 .service-block:hover .descr_1{
     opacity: 1;
     transition: 1s;
-   
+    
 }
 .service-block:hover .descr_2{
     opacity: 1;
     transition: 1s;
-    transform: scale(1) 
+    
 }
 .service-block:hover .descr_3{
     opacity: 1;
     transition: 1s;
-    transform: scale(1) 
+    
 }
 .service-block:hover .descr_4{
     opacity: 1;
@@ -329,26 +331,7 @@ margin-top: 50px;
         margin-bottom:10px;
         height: 200px;
         padding-top: 10px;
-    }
-    .service-block:hover .descr_1{
-        background-image: url(/picture/logo-delpost.jpg);
-        background-size:cover;
-    }
-    .service-block:hover .descr_2{
-        background-image: url(/picture/logo-delpost.jpg);
-        background-size:cover;
-    }
-    .service-block:hover .descr_3{
-        background-image: url(/picture/logo-delpost.jpg);
-        background-size:cover;
-    }
-    .service-block:hover .descr_4{
-        background-image: url(/picture/logo-delpost.jpg);
-        background-size:cover;
-    }
-    .service-block:hover .descr_1 a{
-        color: white;
-        background: red;
+        
     }
     .custom-header div{
         margin-bottom: 5px;
