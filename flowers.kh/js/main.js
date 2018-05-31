@@ -6,7 +6,7 @@ document.body.onload = function(){
     {
         preloader.classList.add('done');
     }
-    },1000);
+    },10);
     }
 // плагин плавного перехода
 $('.top_nav a, .top').mPageScroll2id({
