@@ -3,7 +3,7 @@ body{
   padding: 0;
 }
 .bg-top{
-  background-image: url(/img/fon.jpg);
+  background-image: url(dialog.kh/img/fon.jpg);
   background-size: cover;
   height: 500px;
 }
