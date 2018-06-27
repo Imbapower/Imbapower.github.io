@@ -3,7 +3,7 @@ body{
     padding: 0;
 }
 .bg-banner{
-    background: url(/img/bg-banner.jpg);
+    background: url(/go-business.kh/img/bg-banner.jpg);
     background-size: cover;
     width: 100%;
     height: 100vh;
@@ -101,27 +101,27 @@ body{
     box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
 }
 .bg-prt-1{
-      background: url(/img/portfolio-1.png);
+      background: url(/go-business.kh/img/portfolio-1.png);
       background-size: cover;
 }
 .bg-prt-2{
-    background: url(/img/portfolio-6.png);
+    background: url(/go-business.kh/img/portfolio-6.png);
     background-size: cover;
 }
 .bg-prt-3{
-    background: url(/img/portfolio-2.png);
+    background: url(/go-business.kh/img/portfolio-2.png);
     background-size: contain;  
 }
 .bg-prt-4{
-    background: url(/img/portfolio-3.png);
+    background: url(/go-business.kh/img/portfolio-3.png);
     background-size: contain;  
 }
 .bg-prt-5{
-    background: url(/img/portfolio-4.png);
+    background: url(/go-business.kh/img/portfolio-4.png);
     background-size: contain;  
 }
 .bg-prt-6{
-    background: url(/img/portfolio-5.png);
+    background: url(/go-business.kh/img/portfolio-5.png);
     background-size: contain;  
 }
 .block-portfolio:hover{
@@ -195,19 +195,19 @@ margin: auto;
 
 }
 .team-face-1{
-    background: url(/img/team-1.png);
+    background: url(/go-business.kh/img/team-1.png);
     background-size: cover;
 }
 .team-face-2{
-    background: url(/img/team-2.png);
+    background: url(/go-business.kh/img/team-2.png);
     background-size: cover;
 }
 .team-face-3{
-    background: url(/img/team-3.png);
+    background: url(/go-business.kh/img/team-3.png);
     background-size: cover;
 }
 .team-face-4{
-    background: url(/img/team-4.png);
+    background: url(/go-business.kh/img/team-4.png);
     background-size: cover;
 }
 .team-social{
@@ -238,7 +238,7 @@ margin: auto;
     color: #26af5f;
 }
 .bg-review{
-    background: url(/img/bg-profile.png);
+    background: url(/go-business.kh/img/bg-profile.png);
 }
 .review{
     background: #fff;
@@ -272,15 +272,15 @@ margin: auto;
     
 }
 .picture-face-1{
-    background: url(/img/team-2.png);
+    background: url(/go-business.kh/img/team-2.png);
     background-size: cover;
 }
 .picture-face-2{
-    background: url(/img/team-1.png);
+    background: url(/go-business.kh/img/team-1.png);
     background-size: cover;
 }
 .picture-face-3{
-    background: url(/img/team-4.png);
+    background: url(/go-business.kh/img/team-4.png);
     background-size: cover;
 }
 .partners{
@@ -342,7 +342,7 @@ margin: auto;
 }
 /* section CONTACT */
 .bg-contact{
-    background: url(/img/contact-bg.png);
+    background: url(/go-business.kh/img/contact-bg.png);
     background-size: cover;
 }
 .form-contact{
