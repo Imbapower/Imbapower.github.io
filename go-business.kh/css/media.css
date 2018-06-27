@@ -39,6 +39,67 @@
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
+	.partners li{
+		display: block;
+		padding: 20px 0 20px 0;
+	}
+	.block-portfolio{
+		width: 250px;
+		height: 200px;
+		margin: auto;
+		margin-bottom: 10px;
+	}
+	.block-service{
+		margin-bottom: 20px;
+	}
+	.block-team{
+		margin-bottom: 20px;
+	}
+	.info-contact{
+		margin-bottom: 50px;
+	}
+	.block-blog{
+		margin-bottom: 30px;
+	}
+	.partners{
+		padding: 0;
+	}
+	.partners li{
+		display: block;
+	}
+	.footer-logo{
+		padding: 10px;
+		display: none;
+		
+	}
+	.footer-logo img{
+		transform: scale(0.5);
+	}
+	.footer-logo li{
+		display: inline-block;
+		padding-top: 10px;
+	}
+	.footer-logo a{
+		text-decoration:none;
+		padding: 5px;
+		color: grey;
+	}
+	.form-contact{
+		max-width: 300px;
+	}
+	.group input{
+		width: 200px;
+	}
+	.bar{
+		width: 200px;
+	}
+	.banner-text h1{
+		margin-top: 50px;
+		
+	}
+	
+	
+
 
 }
 
