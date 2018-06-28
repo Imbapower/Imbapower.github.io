@@ -9,7 +9,7 @@ clock = $(".clock").FlipClock({
     clockFace : "DailyCounter",
     autoStart : false,
 });
-var dt = "June 25 2018 20:00:00";
+var dt = "June 25 2019 20:00:00";
 var first = new Date(dt);
 var last = Date.now();
 var remaining = first - last;
