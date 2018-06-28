@@ -1,6 +1,7 @@
 body{
   padding-top: 50px;
   margin: 0;
+  overflow: hidden;
 }
 .top_nav{
     position: fixed;
