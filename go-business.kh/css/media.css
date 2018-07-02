@@ -2,16 +2,36 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
+	.block-portfolio{
+		margin: auto;
+		margin-bottom: 10px;
+		width: 320px;
+		height: 270px;
+	}
 
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
+	.block-portfolio{
+		margin: auto;
+		margin-bottom: 10px;
+		width: 350px;
+		height: 300px;
+	}
+
 
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
+	.block-portfolio{
+		margin: auto;
+		margin-bottom: 10px;
+	}
+	.info-contact{
+		margin-bottom: 50px;
+	}
 	
 	/*Disable Animation on Mobile Devices*/
 	.animated {
