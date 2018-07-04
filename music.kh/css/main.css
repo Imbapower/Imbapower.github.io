@@ -1,0 +1,439 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+/* SECTION 1 */
+.bg-section-1 {
+    background: url(/music.kh/img/bg.png);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.social ul {
+    padding-top: 30px;
+}
+.social {
+    text-align: right;
+}
+
+.social li {
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.social a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+.social a:hover{
+    opacity: 0.5;
+}
+
+.banner-text {
+    margin-top: 20vh;
+    text-align: left;
+}
+
+.banner-text h4,
+.price-block-1 h4,
+.price-block-2 h4 {
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.banner-text h1 {
+    background: linear-gradient(45deg, #aa3a67 0%, #fb806b 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 60px;
+    text-transform: uppercase;
+    letter-spacing: -0.96px;
+    display: table;
+}
+
+.banner-text a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    padding: 30px 60px 30px 60px;
+    border: 4px solid transparent;
+    border-image: linear-gradient(45deg, #aa3a67 0%, #fb806b 100%);
+    border-image-slice: 1;
+    line-height: 100px;
+}
+.banner-text a:hover{
+    background: linear-gradient(45deg, #aa3a67 50%, #fb806b 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+   
+  
+}
+   
+
+/* SECTION 2 */
+.bg-section-2 {
+    background-color: #030203;
+}
+
+.bg-section-2 h2,
+.bg-section-4 h2{
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+    font-size: 38px;
+    font-family: 'Lato', sans-serif;
+    padding: 50px 0 50px 0;
+}
+
+.bg-section-2 p {
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.price-block-1 {
+    background: url(/music.kh/img/bg-price-1.png);
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+.price-block-1 img,
+.price-block-2 img {
+    margin-top: 300px;
+}
+
+.price-block-2 {
+    background: url(/music.kh/img/bg-price-2.png);
+    background-size: cover;
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+.price-block-1:hover,
+.price-block-2:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: 1s;
+}
+.price-block-1 a,
+.price-block-2 a,
+.bg-section-4 a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    padding: 20px 80px 20px 80px;
+    border: 4px solid #fff;
+    border-radius: 4px;
+    line-height: 150px;
+}
+.price-block-1 a:hover,
+.price-block-2 a:hover,
+.bg-section-4 a:hover{
+    border-image: linear-gradient(45deg, #aa3a67 0%, #fb806b 100%);
+    border-image-slice: 1;
+    background: linear-gradient(45deg, #aa3a67 50%, #fb806b 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.price-block-1 i,
+.price-block-2 i {
+    padding-right: 5px;
+}
+
+.price-block-1 p,
+.price-block-2 p {
+    padding: 0 10px 10px 10px;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+}
+/* SECTION 3 */
+.bg-section-3 {
+    background: url(/music.kh/img/bg-section-3.png);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+}
+.bg-section-3 h2{
+    text-transform: uppercase;
+    color: #fff;
+    text-align: left;
+    font-weight: 400;
+    font-size: 38px;
+    font-family: 'Lato', sans-serif;
+    padding-bottom: 30px;
+}
+.bg-section-3 p{
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+}
+/* TIMELINE */
+.timeline {
+    width: 100%;
+    padding: 100px 50px;
+    position: relative;
+    max-height:500px;
+  }
+  .timeline:before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: calc(33% + 15px);
+    bottom: 0px;
+    width: 4px;
+    background: rgb(231, 113, 113);
+  }
+  .timeline:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .entry {
+    clear: both;
+    text-align: left;
+    position: relative;
+  }
+  .entry .title {
+    margin-bottom: .5em;
+    float: left;
+    width: 33%;
+    padding-right: 30px;
+    text-align: right;
+    position: relative;
+  }
+  .entry .title:before {
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border: 10px solid salmon;
+    border-radius: 50%;
+    top: 0;
+    right: -10px;
+    z-index: 99;
+  }
+  .entry .title h3 {
+    margin: 0;
+    font-size: 25px;
+    font-family: 'Lato', sans-serif;
+  }
+  .entry .title p {
+    margin: 0;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+  }
+  .entry .body {
+    margin: 0 0 3em;
+    float: right;
+    width: 66%;
+    padding-left: 30px;
+  }
+  .entry .body p {
+    line-height: 1.4em;
+  }
+  .entry .body p:first-child {
+    margin-top: 0;
+    font-weight: 400;
+  }
+/* SECTION 4 */
+.bg-section-4{
+    background: #030203;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* masonry */
+.masonry-container{
+    padding: 0;
+  }
+  .item{
+    height: 33vh;
+  }
+  .item img{
+      width: 100%;
+  }
+/* SECTION 5 (MAP) */
+.bg-section-5{
+    width: 100%;
+    height: 100vh;
+    background: url(/music.kh/img/map.png);
+    background-size: cover;
+}
+.o-show{
+    text-align: center;
+    background: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 65vh;
+}
+.o-show h2{
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    
+}
+.o-show p{
+    font-family: 'Lato', sans-serif;
+    padding: 0 20px 0 20px;
+    font-weight: bold;
+}
+.small{
+    opacity: 0.6;
+}
+/* SECTION 6  (FOOTER)*/
+.bg-section-6{
+    width: 100%;
+    background-image: linear-gradient(to right, #5328a1 0%, #782e0a 100%);
+    
+}
+.bg-section-6 h3{
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    color: #fff;
+    padding-top: 20px;
+}
+.bg-section-6 p{
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+.bg-section-6 .social{
+    text-align: left;
+}
+/* Navbar (adaptive) */
+.menu {
+    text-align: left;
+}
+
+.menu__icon {
+   display: none;
+   width: 45px;
+   height: 35px;
+   position: relative;
+   cursor: pointer;
+   margin-top: 30px;
+   z-index: 9999;
+}
+
+.menu__icon span {
+  display: block;
+  position: absolute;
+  height: 9px;
+  width: 100%;
+  background: #fff;
+  border-radius: 9px;
+  opacity: 1;
+  left: 0;
+  transform: rotate(0deg);
+  transition: .25s ease-in-out;
+}
+
+.menu__icon span:nth-child(1) {
+  top: 0px;
+}
+
+.menu__icon span:nth-child(2), .menu__icon span:nth-child(3) {
+  top: 13px;
+}
+
+.menu__icon span:nth-child(4) {
+  top: 26px;
+ }
+
+.menu__links-item {
+    display: inline-block;
+    color: #fff;
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 30px;
+    padding: 0 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-top: 30px;
+    font-family: 'Lato', sans-serif;
+}
+
+.menu__links-item:hover {
+    text-decoration: underline;
+    background: linear-gradient(45deg, #aa3a67 50%, #fb806b 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.menu.menu_state_open .menu__icon span:nth-child(1) {
+  top: 18px;
+  width: 0%;
+  left: 50%;
+}
+
+.menu.menu_state_open .menu__icon span:nth-child(2) {
+  transform: rotate(45deg);
+}
+
+.menu.menu_state_open  .menu__icon span:nth-child(3) {
+  transform: rotate(-45deg);
+}
+
+.menu.menu_state_open  .menu__icon span:nth-child(4) {
+  top: 18px;
+  width: 0%;
+  left: 50%;
+}
+
+.menu.menu_state_open .menu__links {
+  display: block;  
+}
+
+@media screen and (max-width: 999px) {
+  .menu__icon{
+    display: inline-block;
+  }
+  
+  .menu__links {
+    position: fixed;
+    display: none;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin-top: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+    overflow: auto;
+  }
+  
+  .menu__links-item {
+    display: block;
+    padding: 10px 0;
+    text-align: center;
+    color: #ffffff;
+  }
+}
