@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head lang="en">
     <title>
         Go-business
@@ -27,22 +28,20 @@
             <div class="row">
                 <div class="col-md-6 col-xs-6"></div>
                 <div class="col-md-6 menu col-xs-6">
-                    <nav>
-                        <ul>
-                            <li>
-                                <a href="#">Home</a>
-                            </li>
-                            <li>
-                                <a href="#services">Services</a>
-                            </li>
-                            <li>
-                                <a href="#portfolio">Portfolio</a>
-                            </li>
-                            <li>
-                                <a href="#blog">Blog</a>
-                            </li>
-                        </ul>
-                    </nav>
+                    <div class="menu">
+                        <div class="menu__icon">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <div class="menu__links">
+                            <a class="menu__links-item" href="#">Home</a>
+                            <a class="menu__links-item" href="#services">Services</a>
+                            <a class="menu__links-item" href="#portfolio">Portfolio</a>
+                            <a class="menu__links-item" href="#blog">Blog</a>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="row">
@@ -72,9 +71,9 @@
                     <div class="block-service">
                         <img src="img/icon-1.png" alt="web Development">
                         <h4>Web Development</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus recusandae quia consequuntur esse fugit
-                            explicabo natus dolor inventore id repudiandae, temporibus enim. Soluta odit perferendis consectetur
-                            libero ad molestiae veritatis.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus recusandae quia consequuntur esse
+                            fugit explicabo natus dolor inventore id repudiandae, temporibus enim. Soluta odit perferendis
+                            consectetur libero ad molestiae veritatis.</p>
 
                     </div>
                 </div>
@@ -82,18 +81,19 @@
                     <div class="block-service">
                         <img src="img/icon-2.png" alt="UI/UX">
                         <h4>UI/UX Design</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus recusandae quia consequuntur esse fugit
-                            explicabo natus dolor inventore id repudiandae, temporibus enim. Soluta odit perferendis consectetur
-                            libero ad molestiae veritatis.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus recusandae quia consequuntur esse
+                            fugit explicabo natus dolor inventore id repudiandae, temporibus enim. Soluta odit perferendis
+                            consectetur libero ad molestiae veritatis.</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-xs-12">
                     <div class="block-service">
                         <img src="img/icon-3.png" alt="Software">
                         <h4>Software Development</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus recusandae quia consequuntur esse fugit
-                            explicabo natus dolor inventore id repudiandae, temporibus enim. Soluta odit perferendis consectetur
-                            .</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus recusandae quia consequuntur esse
+                            fugit explicabo natus dolor inventore id repudiandae, temporibus enim. Soluta odit perferendis
+                            consectetur .
+                        </p>
                     </div>
                 </div>
             </div>
@@ -285,18 +285,24 @@
                         <div class="owl-carousel owl-theme">
                             <div>
                                 <div class="picture picture-face-1"></div>
-                               <div class="picture-text"><p>Designing is a matter of concentration. You go deep into what you want to do. It's about
-                                intensive research, really.</p></div> 
+                                <div class="picture-text">
+                                    <p>Designing is a matter of concentration. You go deep into what you want to do. It's about
+                                        intensive research, really.</p>
+                                </div>
                             </div>
                             <div>
                                 <div class="picture picture-face-2"></div>
-                                <div class="picture-text"><p>Designing is a matter of concentration. You go deep into what you want to do. It's about
-                                    intensive research, really.</p></div> 
+                                <div class="picture-text">
+                                    <p>Designing is a matter of concentration. You go deep into what you want to do. It's about
+                                        intensive research, really.</p>
+                                </div>
                             </div>
                             <div>
                                 <div class="picture picture-face-3"></div>
-                                <div class="picture-text"><p>Designing is a matter of concentration. You go deep into what you want to do. It's about
-                                    intensive research, really.</p></div> 
+                                <div class="picture-text">
+                                    <p>Designing is a matter of concentration. You go deep into what you want to do. It's about
+                                        intensive research, really.</p>
+                                </div>
                             </div>
 
                         </div>
@@ -424,96 +430,103 @@
             </div>
         </div>
     </div>
-<div class="container-fluid bg-contact">
-    <div class="container">
+    <div class="container-fluid bg-contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7 col-xs-12">
+                    <div class="form-contact">
+                        <h2>Don't be shy, say hello!</h2>
+                        <form>
+                            <div class="group">
+                                <input type="text" required class="">
+                                <span class="bar"></span>
+                                <label>
+                                    <span class="glyphicon glyphicon-user"></span>Name</label>
+                            </div>
+                            <div class="group">
+                                <input type="text" required>
+                                <span class="bar"></span>
+                                <label>
+                                    <span class="glyphicon glyphicon-envelope"></span>Email</label>
+                            </div>
+                            <div class="group">
+                                <input type="text" required>
+                                <span class="bar"></span>
+                                <label>
+                                    <span class="glyphicon glyphicon-comment"></span>Message</label>
+                            </div>
+
+                            <button>Send</button>
+
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-5 col-xs-12">
+                    <div class="info-contact">
+                        <h2>our office</h2>
+                        <p>
+                            <span class="glyphicon glyphicon-home"></span>Kandintie 16 3/B
+                            <br> Oulu, Finland</p>
+                        <p>
+                            <span class="glyphicon glyphicon-earphone"></span>+358465657634</p>
+                        <p>
+                            <span class="glyphicon glyphicon-envelope"></span>aticur.ux@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
         <div class="row">
-            <div class="col-md-7 col-xs-12">
-                <div class="form-contact">
-                    <h2>Don't be shy, say hello!</h2>
-                    <form>
-                        <div class="group">      
-                          <input type="text" required class="">
-                          <span class="bar"></span>
-                          <label><span class="glyphicon glyphicon-user"></span>Name</label>
-                        </div>
-                        <div class="group">      
-                          <input type="text" required>
-                          <span class="bar"></span>
-                          <label><span class="glyphicon glyphicon-envelope"></span>Email</label>
-                        </div>
-                        <div class="group">      
-                            <input type="text" required>
-                            <span class="bar"></span>
-                            <label><span class="glyphicon glyphicon-comment"></span>Message</label>
-                          </div>
-                        
-                        <button>Send</button>
-                        
-                      </form>
+            <div class="col-md-12 col-xs-12">
+                <div class="footer-logo">
+                    <img src="img/footer-logo.png" alt="go business">
+                    <ul>
+                        <li>
+                            <a href="">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="fas fa-rss"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="fab fa-pinterest-p"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="fab fa-dribbble"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="fab fa-vimeo-v"></i>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-            <div class="col-md-5 col-xs-12">
-                <div class="info-contact">
-                    <h2>our office</h2>
-                    <p><span class="glyphicon glyphicon-home"></span>Kandintie 16 3/B <br> Oulu, Finland</p>
-                    <p><span class="glyphicon glyphicon-earphone"></span>+358465657634</p>
-                    <p><span class="glyphicon glyphicon-envelope"></span>aticur.ux@gmail.com</p>
+        </div>
+    </div>
+    <div class="container-fluid bg-footer">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="footer">
+                    <p>Copyright 2018 by Khvorostenko Bohdan. All Rights Reserved. Developed by Kh. Bohdan (Godiegogo@ukr.net)</p>
                 </div>
+
             </div>
         </div>
     </div>
-</div>
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-md-12 col-xs-12">
-            <div class="footer-logo">
-                <img src="img/footer-logo.png" alt="go business">
-                <ul>
-                    <li>
-                        <a href="">
-                            <i class="fab fa-facebook-f"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <i class="fas fa-rss"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <i class="fab fa-twitter"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <i class="fab fa-pinterest-p"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <i class="fab fa-dribbble"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <i class="fab fa-vimeo-v"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="container-fluid bg-footer">
-    <div class="row">
-        <div class="col-xs-12">
-            <div class="footer">
-                <p>Copyright 2018 by Khvorostenko Bohdan. All Rights Reserved. Developed by Kh. Bohdan (Godiegogo@ukr.net)</p>
-            </div>
-        
-        </div>
-    </div>
-</div>
 
 
 
@@ -528,7 +541,7 @@
 
 
 
-<script src="js/owl.carousel.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
 </body>
 
 </html>
