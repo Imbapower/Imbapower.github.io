@@ -9,7 +9,7 @@ body{
     height: 100vh;
 }
 .menu {
-    text-align: center;
+    text-align: right;
     margin-top: 50px;
 }
 
@@ -57,16 +57,11 @@ body{
     padding: 0 10px;
     text-transform: uppercase;
     text-decoration: none;
-    padding-top: 30px;
     font-family: 'Montserrat', sans-serif;
-    margin-top: 50px;
 }
 
 .menu__links-item:hover {
     text-decoration: underline;
-    background: linear-gradient(45deg, #aa3a67 50%, #fb806b 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 
 }
 
